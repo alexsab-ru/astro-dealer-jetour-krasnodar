@@ -26,8 +26,19 @@ export const LINKS_MENU = [
 		children
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
+	{
+		url: 'for-owners/',
+		name: 'Владельцам',
+		children: [
+			{ url: 'for-owners/warranty/', name: 'Гарантия Jetour' },
+			{ url: 'for-owners/manual/', name: 'Руководства по эксплуатации' },
+			{ url: 'for-owners/assistance/', name: 'Правила программы Джетур Ассистанс' },
+			{ url: 'for-owners/club/', name: 'Клуб Jetour' },
+			{ url: 'jetour-connect/', name: 'Jetour Connect' },
+		],
+	},
 	{url: 'special-offers/', name: 'Спецпредложения'},
-	{url: 'news/', name: 'Новости'},
+	// {url: 'news/', name: 'Новости'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
@@ -38,6 +49,7 @@ export const LINKS_MENU = [
 export const COLLECTIONS = [
 	{name: 'special-offers', title: 'Спецпредложения'},
 	{name: 'news', title: 'Новости'},
+	{name: 'for-owners', title: 'Владельцам'},
 ];
 
 // Текст согласия в формах
