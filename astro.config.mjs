@@ -54,6 +54,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://jetour.alexsab.ru',
+	site: 'https://jetour-krasnodar.ru',
 	base: "/"
 });
