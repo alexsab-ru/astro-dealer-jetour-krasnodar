@@ -10,10 +10,11 @@ description: "Скидка предоставляется при приобре�
 ---
 
 import Button from '@/components/Button/Button.astro';
-import { SITE_NAME, PHONE } from '@/const';
+import SpecialSalonsInfo from '@/components/SpecialSalonsInfo.astro';
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL, YEAR } from '@/js/utils/date';
-import { LEGAL_CITY_WHERE } from '@/const'
 import Faq from '@/components/Faq/Index.astro';
 
 export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
@@ -64,7 +65,7 @@ export const faqData = [
 
 <h3 class="font-bold text-xl md:text-2xl mb-5">Получите выгоду на&nbsp;покупку автомобиля Jetour 400&nbsp;000&nbsp;рублей. При сдаче вашего автомобиля в&nbsp;Трейд-ин!</h3>
 
-Выгоду можно получить в **Дилерском центре &laquo;Jetour Автохолдинг&raquo;** в {LEGAL_CITY_WHERE} в {dateToPrepositional}. 
+Выгоду можно получить в **Дилерском центре &laquo;Jetour Автохолдинг&raquo;** в {legal_city_where} в {dateToPrepositional}. 
 
 Акция действует на модели: Dashing, X70 Plus, X90 Plus, T2 2023 и 2024 годов выпуска<sup>*</sup>
 
@@ -169,7 +170,7 @@ export const faqData = [
 </section>
 
 ><sup>*</sup>
-Сдаваемый в зачет автомобиль может иметь возраст не более 10 (десяти) лет. Скидка предоставляется при приобретении нового автомобиля физическим или юридическим лицом, являющимся законным собственником сдаваемого в зачет приобретения нового автомобиля Jetour. Скидки по настоящей программе не суммируются с другими скидками в рамках программ, осуществляемых **Дилерским центром &laquo;Jetour Автохолдинг&raquo;** в {LEGAL_CITY_WHERE}. Предложение не является публичной офертой.
+Сдаваемый в зачет автомобиль может иметь возраст не более 10 (десяти) лет. Скидка предоставляется при приобретении нового автомобиля физическим или юридическим лицом, являющимся законным собственником сдаваемого в зачет приобретения нового автомобиля Jetour. Скидки по настоящей программе не суммируются с другими скидками в рамках программ, осуществляемых **Дилерским центром &laquo;Jetour Автохолдинг&raquo;** в {legal_city_where}. Предложение не является публичной офертой.
 
 <div class="flex justify-center mt-10">
     <Button 
