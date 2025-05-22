@@ -1,0 +1,45 @@
+---
+h1: Выгода на&nbsp;покупку Jetour 1&nbsp;000&nbsp;000 рублей
+title: Выгода на покупку Jetour 1&nbsp;000&nbsp;000 рублей
+breadcrumb: Выгода на покупку Jetour 1&nbsp;000&nbsp;000 рублей
+pubDate: 2024-03-01
+image: https://cdn.alexsab.ru/specials/jetour/krasnodar/vigoda-300-000-rub-na-jetour/thumb.webp
+description: "Приобретайте автомобиль Jetour Dashing в любой комплектации с выгодой 1&nbsp;000&nbsp;000 рублей в Дилерском центре «Jetour Автохолдинг» в Краснодаре"
+---
+
+import Button from '@/components/Button/Button.astro';
+import SpecialSalonsInfo from '@/components/SpecialSalonsInfo.astro';
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
+import { phoneFormat } from '@/js/utils/numbers.format';
+import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL, YEAR } from '@/js/utils/date';
+
+export const dateFrom = '01.07.2024';
+export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
+export const dateToGenitive = `${LAST_DAY} ${MONTH_GENITIVE} ${YEAR}`;
+export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
+
+<picture>
+    <source media="(min-width: 1025px)" srcset="https://cdn.alexsab.ru/specials/jetour/krasnodar/vigoda-300-000-rub-na-jetour/vigoda-300-000-rub-na-jetour.webp" />
+    <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/specials/jetour/krasnodar/vigoda-300-000-rub-na-jetour/thumb.webp" />
+    <img src="https://cdn.alexsab.ru/specials/jetour/krasnodar/vigoda-300-000-rub-na-jetour/vigoda-300-000-rub-na-jetour.webp" class="" alt="Jetour Dashing" />
+</picture>
+
+<br />
+<br />
+
+**Вы можете приобрести автомобиль Jetour Dashing в любой комплектации с выгодой до 1&nbsp;000&nbsp;000 рублей в Дилерском центре &laquo;Jetour Автохолдинг&raquo; в {legal_city_where}.**
+
+Предложение суммируется со всеми кредитными программами банков-партнеров.
+
+Подробности уточняйте по телефону <a href={`tel:${phoneFormat(phone_common)}`}>{phone_common}</a>
+
+<div class="flex justify-center mt-10 mb-5">
+    <Button
+        classes="popup-link block !px-4 xl:!px-8 !py-2 xl:!py-3 !text-white !no-underline"
+        url="#common-modal"
+        title="Узнать подробнее"
+        dataTitle="Узнать подробнее"
+        dataFormName="Выгода на покупку Jetour 1 000 000 рублей"
+    />
+</div>
