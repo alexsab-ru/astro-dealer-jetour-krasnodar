@@ -2,16 +2,18 @@ import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Конечное время для таймера
 //string 2025-12-31T23:59:59+04:00
-export const TIMER = { title: 'До конца акции осталось',subtitle: '', endtime: `${YEAR}-${MONTH}-${LAST_DAY}T23:59:59+04:00`, btnName: 'Зафиксировать цену', show: false };
+export const TIMER = { title: 'До конца акции осталось',subtitle: '', endtime: `${YEAR}-${MONTH}-${LAST_DAY}T23:59:59+04:00`, btnName: 'Зафиксировать цену', show: true };
 // Объект для бегущей строки
 export const MARQUEE = { title: `Тотальная распродажа до ${LAST_DAY}.${MONTH}.${YEAR}`, count: 8, speed: 20, show: false };
 // Ссылка яндекс-виджета
 export const LINK_WIDGET = 'https://yandex.ru/map-widget/v1/-/';
-
 // Ссылки под хедером
 import { groupArrayByKey } from '@/js/utils/groupArrayByKey';
+
 import modelsData from '@/data/models.json';
-const groupModelsByBrand = groupArrayByKey(modelsData.filter(model => model.show), 'mark_id');
+const { models } = modelsData;
+
+const groupModelsByBrand = groupArrayByKey(models.filter(model => model.show), 'mark_id');
 const children = Object.keys(groupModelsByBrand).reduce((acc, key) => {
 	acc[key] = groupModelsByBrand[key].map(model => ( { url: `models/${model.id}/`, name: `${model.name.toUpperCase()}`, thumb: model.thumb } ) );
 	return acc;
@@ -27,9 +29,21 @@ export const LINKS_MENU = [
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	{
-		url: 'for-owners/',
+		url: 'javascript:void(0)',
+		name: 'Покупателям',
+		children: [
+			{url: 'special-offers/', name: 'Спецпредложения'},
+			{url: 'test-drive/', name: 'Запись на тест-драйв'},
+			{url: 'insurance/', name: 'JETOUR Страхование'},
+			
+		],
+	},
+	{
+		url: 'for-owners',
 		name: 'Владельцам',
 		children: [
+			{url: 'special-offers/', name: 'Спецпредложения'},
+			{url: 'service-request/', name: 'Запись на сервис'},
 			{ url: 'for-owners/warranty/', name: 'Гарантия Jetour' },
 			{ url: 'for-owners/manual/', name: 'Руководства по эксплуатации' },
 			{ url: 'for-owners/assistance/', name: 'Правила программы Джетур Ассистанс' },
@@ -37,10 +51,14 @@ export const LINKS_MENU = [
 			{ url: 'jetour-connect/', name: 'Jetour Connect' },
 		],
 	},
-	{url: 'special-offers/', name: 'Спецпредложения'},
-	// {url: 'news/', name: 'Новости'},
-	{url: 'test-drive/', name: 'Запись на тест-драйв'},
-	{url: 'service-request/', name: 'Запись на сервис'},
+	{
+		url: 'javascript:void(0)',
+		name: 'О бренде',
+		children: [
+			{url: 'about/', name: 'О бренде JETOUR'},			
+			{url: 'news/', name: 'Новости'},
+		],
+	},
 	{url: '#services', name: 'Услуги'},
 	{url: 'contacts/', name: 'Контакты'},
 ];

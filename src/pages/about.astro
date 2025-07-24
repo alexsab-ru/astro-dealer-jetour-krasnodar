@@ -1,0 +1,113 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import settings from '@/data/settings.json';
+import Banner from '@/components/Banner/Banner.astro';
+import BrandHistoryElements from '@/components/BrandHistory/BrandHistoryElements.astro';
+import InfoSectionWithImage from '@/components/InfoSectionWithImage/InfoSectionWithImage.astro';
+const { brand, legal_city_where } = settings;
+const history = [
+	{year: "MAPT 2019", html: "Экспорт автомобилей JETOUR в Эквадор"},
+	{year: "СЕНТЯБРЬ 2019", html: "Запуск JETOUR Х7О в Боливии"},
+	{year: "НОЯБРЬ 2019", html: "Запуск JETOUR Х70/Х70S в Омане"},
+	{year: "НОЯБРЬ 2019", html: "Запуск JETOUR Х70 в Мьянме"},
+	{year: "МАРТ 2022", html: "Запуск JETOUR Х7О Plus в Саудовской Аравии"},
+	{year: "АПРЕЛЬ 2022", html: "JETOUR — спонсор Футбольного Клуба Уругвай"},
+	{year: "ИЮНЬ 2022", html: "Логотип JETOUR на башне Бурдж-Халифа"},
+	{year: "СЕНТЯБРЬ 2022", html: "Подписание соглашения с Allur Group"},
+	{year: "ДЕКАБРЬ 2022", html: "Запуск JETOUR Х7О Plus в Дубае"},
+	{year: "ДЕКАБРЬ 2022", html: "Карнавал JETOUR на ЧМ по футболу в Катаре"},
+	{year: "ФЕВРАЛЬ 2023", html: "Открытие представительства JETOUR в России"},
+	{year: "ФЕВРАЛЬ 2023", html: "JETOUR - официальный партнер Tour of Oman"},
+	{year: "МАРТ 2023", html: "Успех на Азиатском-Тихоокеанском рынке"},
+	{year: "МАРТ 2023", html: "Дилерская конференция «Лжетур Мотор Рус»"},
+	{year: "АПРЕЛЬ 2023", html: "Шенхайский Международный Автосалон 2025"},
+	{year: "АПРЕЛЬ 2023", html: "Международная конференция JETOUR Auto 2025"},
+	{year: "ИЮНЬ 2023", html: "Официальный запуск бренда JETOUR в России"},
+	{year: "ИЮНЬ 2023", html: "Старт продаж JETOUR Dashing и JETOUR Х90 Plus вРоссии"},
+	{year: "АВГУСТ 2023", html: "Запуск Х70 Plus, Х90 Plus и Dashing в Египте"},
+	{year: "АВГУСТ 2023", html: "Запуск Х90 Plus и Dashing в Белоруссии"},
+	{year: "СЕНТЯБРЬ 2023", html: "Запуск Х70 Plus в России"},
+	{year: "НОЯБРЬ 2023", html: "Запуск проекта «Созвездие путешествий» в России"},
+	{year: "ФЕВРАЛЬ 2024", html: "Запуск Т2 на Ближнем Востоке"},
+	{year: "МАРТ 2024", html: "Запуск Т2 в России"},
+	{year: "ОКТЯБРЬ 2024", html: "Запуск X50 в России"},
+	{year: "НОЯБРЬ 2024", html: "Старт продаж полноприводного JETOUR Dashing в России"},
+	{year: "ДЕКАБРЬ 2024", html: "Старт продаж JETOUR Х7О в России"},
+	{year: "ДЕКАБРЬ 2024", html: "Старт продаж Dashing с 8АТ и полным приводом"},
+	{year: "ЯНВАРЬ 2025", html: "Новая коллекция Т2 Discovery с 8АТ"},
+];
+const banner = {
+	"show": true,
+	"type": "",
+	"view": "link",
+	"imageUrl": "https://cdn.alexsab.ru/pages/jetour/about/banner_desktop.webp",
+	"title": "<nav class=\"mb-5 sm:mb-10\"><ol class=\"flex items-center flex-nowrap whitespace-nowrap gap-1 font-normal text-base\"><li class=\"!m-0 flex items-center flex-nowrap gap-1\"><a href=\"/\" class=\"!text-xs sm:!text-sm !m-0 !leading-none !no-underline font-semibold hover:opacity-80 !text-white\">Главная</a><span class=\"text-xs !leading-none\">&gt;</span></li><li class=\"!m-0 flex items-center flex-nowrap gap-1 truncate\"><span class=\"text-xs sm:text-sm !leading-none opacity-80 truncate\">О бренде</span></li></ol></nav><h1>О бренде JETOUR</h1>",
+	"descr": "СОЗДАН ДЛЯ ПУТЕШЕСТВИЙ"
+}
+---
+
+<Layout title={`О бренде ${brand}`} description={`В любом путешествии важен не только пункт назначения, но и сам процесс. Автомобили ${brand} обеспечат комфорт и безопасность каждой поездки`} image="https://cdn.alexsab.ru/pages/jetour/about/banner_desktop.webp">
+	<Banner banners={[banner]} />
+	<section class="bg-gray-50">
+		<div class="container text-center">
+			<h2 class="text-center mb-6">Навстречу новым горизонтам</h2>
+			<p>Поездка на автомобиле может быть такой же исключительно комфортной и приятной, как полёт на личном самолёте. <br/>В любом путешествии важен не только пункт назначения, но и сам процесс. Автомобили JETOUR обеспечат комфорт и безопасность каждой поездки</p>
+			<div class="lazy mt-10">
+				<video
+					muted
+					loop
+					autoplay
+					playsinline
+					poster=https://cdn.alexsab.ru/pages/jetour/about/poster.webp
+					class="h-full w-full object-cover">
+					<source data-src=https://cdn.alexsab.ru/video/jetour/about.mp4 type="video/mp4" />
+				</video>
+			</div>
+		</div>
+	</section>
+	<section class="!pb-0">
+		<div class="container">
+			<h2 class="text-center mb-6">JETOUR В МИРЕ</h2>
+			<BrandHistoryElements items={history} />
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="text-center">
+				<h2 class="text-center mb-6">ВЫБЕРИ НАПРАВЛЕНИЕ, ОТПРАВЛЯЙСЯ В ПУТЬ</h2>
+				<p>В любом путешествии важен не только пункт назначения, но и сам процесс</p>
+			</div>
+			<InfoSectionWithImage image={{
+				desktop: 'https://cdn.alexsab.ru/pages/jetour/about/1.webp',
+			}}>
+				<h3 class="font-bold mb-10">ВСЁ ДЛЯ НАДЁЖНОГО И <br/>КОМФОРТНОГО ВОЖДЕНИЯ</h3>
+				<div class="space-y-6 mb-10">
+                    <p>Автомобильный бренд JETOUR создан в 2018 году, как ответ на изменившиеся запросы рынка, где путешествия стали частью образа жизни: от поездок за город до активных путешествий по стране и за её пределы.</p>
+					<p>Все модели бренда JETOUR отличаются отличной манёвренностью и высоким уровнем комфорта. Каждый автомобиль оснащён независимой подвеской и имеет кузов с высокой долей содержания высокопрочных сталей. Под капотом у автомобилей JETOUR расположены современные и экономичные двигатели.</p>
+				</div>
+				<a class="btn" href="/test-drive/"><span>Записаться на тест-драйв</span></a>
+			</InfoSectionWithImage>
+			<InfoSectionWithImage image={{
+				desktop: 'https://cdn.alexsab.ru/pages/jetour/about/2.webp',
+			}}>
+				<h3 class="font-bold mb-10">УМНЫЕ ТЕХНОЛОГИИ ДЛЯ <br/>КОМФОРТНЫХ ПОЕЗДОК</h3>
+				<div class="space-y-6 mb-10">
+                    <p>Для водителя и пассажиров доступны все необходимые для комфортных поездок опции. Большой мультимедийный дисплей, голосовой помощник, высококачественная акустическая система, круговой обзор 540 градусов.</p>
+					<p>Продуманная эргономика салона, включая пространство на передних и задних местах, вместительный багажник позволяют планировать отпуск или путешествие с максимальной свободой.</p>
+					<p><strong>JETOUR превратит любую поездку с семьёй или друзьями в незабываемый опыт.</strong></p>
+				</div>
+				<a class="btn" href="/models/"><span>Все модели JETOUR</span></a>
+			</InfoSectionWithImage>
+			<InfoSectionWithImage image={{
+				desktop: 'https://cdn.alexsab.ru/pages/jetour/about/3.webp',
+			}}>
+				<h3 class="font-bold mb-10">СТИЛЬ, ЭСТЕТИКА, ХАРАКТЕР</h3>
+				<div class="space-y-6 mb-10">
+                    <p>В зависимости от модели и комплектаций, салон моделей JETOUR отличается яркими акцентами — контрастная окантовка сидений и приборной панели, хромированные поверхности. А атмосферная подсветка по периметру салона позволяет задать нужное настроение в кроссовере.</p>
+					<p>Во внутренней отделке автомобилей применены качественные и практичные материалы, такие как натуральная и искусственная кожа, замша.</p>
+				</div>
+				<a class="btn" href="/test-drive/"><span>Записаться на тест-драйв</span></a>
+			</InfoSectionWithImage>
+		</div>
+	</section>
+</Layout>
