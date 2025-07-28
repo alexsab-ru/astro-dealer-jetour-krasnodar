@@ -56,7 +56,7 @@ export const LINKS_MENU = [
 		name: 'О бренде',
 		children: [
 			{url: 'about/', name: 'О бренде JETOUR'},			
-			{url: 'news/', name: 'Новости'},
+			// {url: 'news/', name: 'Новости'},
 		],
 	},
 	{url: '#services', name: 'Услуги'},
