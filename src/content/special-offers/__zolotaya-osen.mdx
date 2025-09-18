@@ -9,8 +9,11 @@ description: "Золотая осень с Jetour - это выгода на п�
 ---
 
 import Button from '@/components/Button/Button.astro';
-import { LEGAL_CITY_WHERE, LEGAL_ENTITY } from '@/const';
-import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
+import SpecialSalonsInfo from '@/components/SpecialSalonsInfo.astro';
+import settings from '@/data/settings.json';
+export const { site_name, phone_common } = settings;
+import { phoneFormat } from '@/js/utils/numbers.format';
+import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL, YEAR } from '@/js/utils/date';
 
 export const DateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
 
