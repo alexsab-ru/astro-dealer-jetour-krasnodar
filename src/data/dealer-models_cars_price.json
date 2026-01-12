@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "brand": "Jetour",
+    "model": "Dashing",
+    "price": 2339900,
+    "benefit": 500000
+  },
+  {
+    "brand": "Jetour",
+    "model": "T1",
+    "price": 3270000,
+    "benefit": 520000
+  },
+  {
+    "brand": "Jetour",
+    "model": "X70 Plus",
+    "price": 2444900,
+    "benefit": 555000
+  }
+]
