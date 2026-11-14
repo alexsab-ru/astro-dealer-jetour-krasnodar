@@ -58,8 +58,8 @@
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/0/full.webp?v=a77263f6512b</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/1/full.webp?v=32abf1fa56e3</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/2/full.webp?v=4b5274e2b259</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/3/full.webp?v=c91464f33460</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/2/full.webp?v=b575aec73102</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/3/full.webp?v=30660563c329</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/4/full.webp?v=c4fdfdf95ac7</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/5/full.webp?v=79f9c7fdaa63</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSM2SC003428/6/full.webp?v=96ed5f9afdd9</image>
@@ -140,6 +140,8 @@
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSMXSC004102/11/full.webp?v=c94ae1081186</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSMXSC004102/12/full.webp?v=b30b8a27194f</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSMXSC004102/13/full.webp?v=052044f4bcde</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSMXSC004102/14/full.webp?v=99b16613155c</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC37LUSMXSC004102/15/full.webp?v=752ccbbea05c</image>
       </images>
     </car>
     <car>
@@ -160,12 +162,12 @@
       <description>Автомобиль Jetour Dashing, Комфорт, 1.5 DCT (147 л.с.), 2026 г., белый</description>
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/0/full.webp?v=901f29bede3a</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/1/full.webp?v=43fcd68b893c</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/1/full.webp?v=614ec24228b0</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/2/full.webp?v=1671d26a45ab</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/3/full.webp?v=99a1af14737f</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/4/full.webp?v=6d59efc9075c</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/5/full.webp?v=1cf51276aebe</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/6/full.webp?v=3b80c7948b7d</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/6/full.webp?v=94e6de9030f3</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/7/full.webp?v=9531cdd49474</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/8/full.webp?v=f1e1822f9446</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFD9SC008803/9/full.webp?v=52381b766f6f</image>
@@ -264,9 +266,9 @@
       <description>Автомобиль Jetour Dashing, Комфорт, 1.5 DCT (147 л.с.), 2026 г., зеленый</description>
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/0/full.webp?v=bb36f50d29a8</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/1/full.webp?v=5ae52bfcc9e1</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/1/full.webp?v=be8eb20aa41f</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/2/full.webp?v=add7f3253f32</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/3/full.webp?v=c786bc2d6f94</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/3/full.webp?v=a2e355575fde</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/4/full.webp?v=3ba343842ac0</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/5/full.webp?v=6d706c128fdb</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008714/6/full.webp?v=70064d9c8d64</image>
@@ -299,8 +301,8 @@
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/0/full.webp?v=9c5eb2ba189b</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/1/full.webp?v=a50b2937d7bd</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/2/full.webp?v=cc773efe4f74</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/3/full.webp?v=b5c573e79acb</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/2/full.webp?v=e3d8abbf0460</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/3/full.webp?v=30870c997a2f</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/4/full.webp?v=9a4904ed183d</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/5/full.webp?v=d35fa4e898be</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXSC008731/6/full.webp?v=a90a8c758d3e</image>
@@ -331,8 +333,8 @@
       <body_type>Внедорожник</body_type>
       <description>Автомобиль Jetour Dashing, Комфорт, 1.5 DCT (147 л.с.), 2026 г., черный</description>
       <images>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/0/full.webp?v=d42e16a56dec</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/1/full.webp?v=863e07e54b1c</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/0/full.webp?v=5d7bc2aec9d1</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/1/full.webp?v=7899b88f3bce</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/2/full.webp?v=fcdaf813bf31</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/3/full.webp?v=fd7f76321d81</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011100/4/full.webp?v=1fb94031369e</image>
@@ -394,6 +396,7 @@
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011128/19/full.webp?v=ad00a948da98</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011128/20/full.webp?v=dd7016dd60ee</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011128/21/full.webp?v=2748ca8cd59f</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DCUFDXTC011128/22/full.webp?v=8b5b5cf0c024</image>
       </images>
     </car>
     <car>
@@ -464,6 +467,8 @@
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004086/14/full.webp?v=881a6e6cd04a</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004086/15/full.webp?v=6ef33f870dc0</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004086/16/full.webp?v=451cf4489d2a</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004086/17/full.webp?v=2b2f9cc024cc</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004086/18/full.webp?v=0ce1f2086080</image>
       </images>
     </car>
     <car>
@@ -484,10 +489,10 @@
       <description>Автомобиль Jetour Dashing, Люкс, 1.5 DCT (147 л.с.), 2025 г., черный</description>
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/0/full.webp?v=6b33bf39bc0e</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/1/full.webp?v=205dcc915254</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/1/full.webp?v=005743dfcf66</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/2/full.webp?v=d0b8b35615e2</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/3/full.webp?v=2b331b3d04fc</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/4/full.webp?v=1eb79dea187c</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/4/full.webp?v=883a1fa951af</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/5/full.webp?v=1d5cca631fb3</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/6/full.webp?v=7495e7ab4faf</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC004671/7/full.webp?v=d3426edb464e</image>
@@ -544,6 +549,8 @@
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC005920/18/full.webp?v=4185c46e9b63</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC005920/19/full.webp?v=cece07da99d1</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC005920/20/full.webp?v=ae8701cac345</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC005920/21/full.webp?v=b3d390401df9</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFD6SC005920/22/full.webp?v=87dcf9e46dc4</image>
       </images>
     </car>
     <car>
@@ -564,11 +571,11 @@
       <description>Автомобиль Jetour Dashing, Люкс, 1.5 DCT (147 л.с.), 2025 г., черный</description>
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/0/full.webp?v=b83fc861afb4</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/1/full.webp?v=67b911d00f82</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/1/full.webp?v=40a185bbf9aa</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/2/full.webp?v=c0dc0a88a161</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/3/full.webp?v=46281ce55a6c</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/4/full.webp?v=bcb268d38c6d</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/5/full.webp?v=55505a13f18a</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/5/full.webp?v=89aed685f074</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/6/full.webp?v=6d3234760d10</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/7/full.webp?v=982d8bb5153f</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DEUFDXSC006004/8/full.webp?v=4b958310e75b</image>
@@ -641,8 +648,8 @@
       <images>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/0/full.webp?v=09ae000127a7</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/1/full.webp?v=2d8b986b8b5a</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/2/full.webp?v=840e01d3db79</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/3/full.webp?v=145445367014</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/2/full.webp?v=2a86f3d8ba67</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/3/full.webp?v=4ac0a688f404</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/4/full.webp?v=6310674a5655</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/5/full.webp?v=f4d8a3a900df</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/EC3DLUFDXTC012697/6/full.webp?v=219f97aff9c3</image>
@@ -687,6 +694,7 @@
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B1TDB97904/11/full.webp?v=1a0f49efcd8c</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B1TDB97904/12/full.webp?v=fb8870582f3e</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B1TDB97904/13/full.webp?v=26b523efbf81</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B1TDB97904/14/full.webp?v=69c2d2d16d3a</image>
       </images>
     </car>
     <car>
@@ -775,9 +783,9 @@
       <body_type>Внедорожник</body_type>
       <description>Автомобиль Jetour T1, Премиум, 2.0 4WD AT (245 л.с.), 2026 г., черный</description>
       <images>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/0/full.webp?v=c419b553b280</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/0/full.webp?v=710120e2be9b</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/1/full.webp?v=603389726017</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/2/full.webp?v=70bba8e697f9</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/2/full.webp?v=8de7631456e8</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/3/full.webp?v=b85c5282dcaf</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/4/full.webp?v=d2d8e5cfce84</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B5TDB77929/5/full.webp?v=7afe899101f6</image>
@@ -808,11 +816,11 @@
       <body_type>Внедорожник</body_type>
       <description>Автомобиль Jetour T1, Премиум, 2.0 4WD AT (245 л.с.), 2026 г., черный</description>
       <images>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/0/full.webp?v=d59f2d647830</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/0/full.webp?v=42976bec84e9</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/1/full.webp?v=1975fd95a655</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/2/full.webp?v=e4d46cfe5d8b</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/3/full.webp?v=9cd131dc8a45</image>
-        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/4/full.webp?v=849b1bc72e7e</image>
+        <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/4/full.webp?v=8679ef324dd7</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/5/full.webp?v=1e6ecdc38cfc</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/6/full.webp?v=9b817ac32adb</image>
         <image>https://img.upspace.ru/cars/jetour-krasnodar.ru/new/LVTDD24B7TDB86700/7/full.webp?v=569806720f52</image>
